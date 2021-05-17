@@ -4,5 +4,5 @@ COPY themes/ /app/themes
 WORKDIR /app
 RUN hugo
 
-FROM nginx:1.20.0
+FROM nginx:1.20.0-alpine
 COPY --from=builder /app/public /usr/share/nginx/html
