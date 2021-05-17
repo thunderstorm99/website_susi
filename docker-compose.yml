@@ -1,6 +1,6 @@
 version: '3.7'
 services:
   website:
-    build: .
+    image: thunderstorm99/susistinnesbeck.de:latest
     ports:
       - 80:80

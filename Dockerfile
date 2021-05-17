@@ -1,2 +1,9 @@
+FROM klakegg/hugo:0.83.1 AS builder
+COPY config.toml /app/
+COPY themes/ /app/themes
+WORKDIR /app
+RUN ls -alh /app
+RUN hugo
+
 FROM nginx:1.20.0
-COPY public /usr/share/nginx/html
+COPY --from=builder /app/public /usr/share/nginx/html
