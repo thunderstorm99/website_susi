@@ -1,0 +1,30 @@
+baseURL = "https://susistinnesbeck.de/"
+languageCode = "de-de"
+title = "E.S. Stinnesbeck"
+theme = "aerial"
+
+[params]
+  name = "E.S. Stinnesbeck"
+  about = "Author &nbsp;&bull;&nbsp; Scientist &nbsp;&bull;&nbsp; Artist"
+  description = "Some description header text"
+  copyright = "E.S. Stinnesbeck"
+  language = "en"
+  # Disable the scrolling background by entering any string for bg_scroll. Enable by leaving bg_scroll empty.
+  # not working ...
+  bg_scroll = ""
+  favicon = "favicon.ico"
+
+[[params.social]]
+  medium = "Amazon"
+  icon = "fab fa-amazon"
+  link = "https://www.amazon.de/E.S.-Stinnesbeck/e/B081Y45G7T"
+
+[[params.social]]
+  medium = "ResearchGate"
+  icon = "fab fa-researchgate"
+  link = "https://www.researchgate.net/profile/Eva_Stinnesbeck"
+
+[[params.social]]
+  medium = "Spreadshirt"
+  icon = "fas fa-tshirt"
+  link = "https://shop.spreadshirt.de/curiositiesofnature"
